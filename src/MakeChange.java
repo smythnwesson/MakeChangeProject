@@ -21,7 +21,9 @@ public class MakeChange {
 
 		} else if (tendered == price) {
 			System.out.println("Thank you for your transaction. No change required.\n");
-		} else {
+		} 
+		
+		else {
 			change = tendered - price;
 			System.out.println("Please provide change for $" + change + "\n");
 
@@ -52,10 +54,13 @@ public class MakeChange {
 
 		if (twenty == 0) {
 
-		} else {
+		}
+
+		else {
 
 			System.out.println("Twenties: " + twenty);
 		}
+
 		if (ten == 0) {
 
 		}
@@ -85,20 +90,26 @@ public class MakeChange {
 
 		if (quarter == 0) {
 
-		} else {
+		}
+
+		else {
 			System.out.println("Quarters: " + quarter);
 		}
 
 		if (dime == 0) {
 
-		} else {
+		}
+
+		else {
 
 			System.out.println("Dimes: " + dime);
 		}
 
 		if (nickel == 0) {
 
-		} else {
+		}
+
+		else {
 
 			System.out.println("Nickels: " + nickel);
 		}
